@@ -40,6 +40,6 @@ Feel free to customize this README for your projects. A well-documented README e
 
 ## Feedback and Contact 📬
 
-Feedback and suggestions are welcome! Reach out to me at [your email] or open an issue.
+Feedback and suggestions are welcome! Reach out to me at [wassimdjaafar5@gmail.com] or open an issue.
 
 **Thank you for exploring my Rock, Paper, Scissors Challenge solution!** 🎉🤘
