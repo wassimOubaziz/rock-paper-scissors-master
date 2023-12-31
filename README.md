@@ -32,7 +32,7 @@ This project showcases my solution for the Rock, Paper, Scissors game coding cha
 
 ## Deployment 🌐
 
-Explore and play the Rock, Paper, Scissors game [here](#insert-your-live-demo-link).
+Explore and play the Rock, Paper, Scissors game [here](https://wassimoubaziz.github.io/rock-paper-scissors-master/).
 
 ## Custom README ✨
 
