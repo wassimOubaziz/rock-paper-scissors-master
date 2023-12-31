@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="text">
+        <h2>ROCK</h2>
+        <h2>PAPER</h2>
+        <h2>SCISSORS</h2>
+      </div>
+      <div class="score">
+        <p>SCORE</p>
+        <h1>12</h1>
+      </div>
+    </div>
+    <div class="choice">
+      <div class="cc">
+        <div class="rock paper k" data-set="0">
+          <img src="./images/icon-paper.svg" alt="paper" />
+        </div>
+        <div class="rock scissors k" data-set="1">
+          <img src="./images/icon-scissors.svg" alt="paper" />
+        </div>
+      </div>
+      <div class="rock rock1 k" data-set="2">
+        <img src="./images/icon-rock1.svg" alt="paper" />
+      </div>
+      <img class="triangle" src="./images/bg-triangle.svg" alt="" />
+    </div>
+    <div class="waiting choice">
+      <div class="you">
+        <h2>YOU PICKED</h2>
+        <!-- <div class="rock paper active" data-set="0">
+          <img src="./images/icon-paper.svg" alt="paper" />
+        </div> -->
+      </div>
+      <div class="play">
+        <h1>YOU WIN</h1>
+        <button>PLAY AGAIN</button>
+      </div>
+      <div class="house">
+        <h2>THE HOUSE PICKED</h2>
+        <div class="before"></div>
+        <!-- <div class="rock paper " data-set="0">
+          <img src="./images/icon-paper.svg" alt="paper" />
+        </div> -->
+      </div>
+    </div>
+    <div class="rules">
+      <button>RULES</button>
+    </div>
+    <div class="show">
+      <div class="whit">
+        <div class="fl">
+          <h1>Rules</h1>
+          <img src="./images/icon-close.svg" alt="close" />
+        </div>
+        <div class="choice">
+          <div class="cc">
+            <div class="rock paper" data-set="0">
+              <img src="./images/icon-paper.svg" alt="paper" />
+            </div>
+            <div class="rock scissors" data-set="1">
+              <img src="./images/icon-scissors.svg" alt="scissors" />
+            </div>
+          </div>
+          <div class="rock rock1" data-set="2">
+            <img src="./images/icon-rock1.svg" alt="rock" />
+          </div>
+        </div>
+        <div class="row left">
+          <p>BEAT</p>
+          <img src="./images/Capture-removebg-preview.png" alt="" />
+        </div>
+        <div class="row bottom">
+          <p>BEAT</p>
+          <img src="./images/Capture-removebg-preview.png" alt="" />
+        </div>
+        <div class="row up">
+          <p>BEAT</p>
+          <img src="./images/Capture-removebg-preview.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <video class="win" src="./video/goodJob.mp4"></video>
+    <video class="lose" src="./video/lose.mp4"></video>
+    <!-- Score Rules You Picked The House Picked You Win You Lose Play Again -->
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
